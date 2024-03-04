@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/etInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -23,8 +23,9 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:onClick="doClick"
         android:text="Click Me!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+        app:layout_constraintTop_toBottomOf="@+id/etInput" />
 </androidx.constraintlayout.widget.ConstraintLayout>
