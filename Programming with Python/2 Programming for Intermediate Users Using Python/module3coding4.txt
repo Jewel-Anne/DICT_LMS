@@ -1,0 +1,4 @@
+I like learning Python because it's fun!
+I plan to learn machine learning after.
+I'll apply what I've learned by teaching others.
+My goal is to be a good python programmer.
